@@ -107,7 +107,7 @@ function UseState({ name }) {
           onClick={() => {
             onCheck();
           }}
-          onChange={(event) => {is
+          onChange={(event) => {
             onWhrite(event.target.value);
           }}
           value={state.value}
